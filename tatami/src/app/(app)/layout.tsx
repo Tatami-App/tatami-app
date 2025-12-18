@@ -1,3 +1,4 @@
+import type React from "react"
 import { AppSidebar } from "@/components/layout/app-sidebar"
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
@@ -7,4 +8,4 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
             <main className="flex-1 pb-20 lg:pb-0">{children}</main>
         </div>
     )
-}   
+}
